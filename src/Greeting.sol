@@ -2,7 +2,6 @@
 pragma solidity 0.8.30;
 
 contract Greeter {
-
     string public greeting;
 
     constructor(string memory _initialGreeting) {
@@ -12,6 +11,7 @@ contract Greeter {
     function setGreeting(string memory _newGreeting) public {
         greeting = _newGreeting;
     }
+
     function greet() public view returns (string memory) {
         return greeting;
     }

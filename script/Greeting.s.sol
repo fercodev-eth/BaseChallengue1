@@ -8,8 +8,8 @@ contract GreetingScript is Script {
     function setUp() public {}
 
     function run() public {
-    vm.startBroadcast();
-    Greeter greeter = new Greeter("Hola, mundo!");
-    vm.stopBroadcast();
-}
+        vm.startBroadcast();
+        Greeter greeter = new Greeter("Hola, mundo!");
+        vm.stopBroadcast();
+    }
 }
