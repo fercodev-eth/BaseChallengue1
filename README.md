@@ -2,6 +2,22 @@
 
 **Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
 
+# Proyecto: Greeter en Base Sepolia
+
+Este repositorio contiene el contrato inteligente `Greeter` desarrollado en Solidity y desplegado en la red Base Sepolia.
+
+## Contrato verificado
+
+El contrato ha sido verificado exitosamente en BaseScan:
+
+🔗 [Ver Greeter en BaseScan](https://sepolia.basescan.org/address/0x3737f6ef9a735a6bfd48ba0f28ab9eb5e0ef5ceb#code)
+
+Dirección: `0x3737F6ef9a735A6bFd48BA0f28AB9EB5e0Ef5ceb`
+
+Puedes consultar el código fuente, las transacciones y el estado del contrato directamente en BaseScan.
+
+---
+
 Foundry consists of:
 
 -   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
